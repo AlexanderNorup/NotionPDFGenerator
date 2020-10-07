@@ -1,0 +1,15 @@
+{
+  "name": "notionpdfgenerator",
+  "version": "1.0.0",
+  "description": "Converts a zip html-export from Notion.so to a combined PDF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Nørup",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-merger-js": "^3.0.5",
+    "puppeteer": "^5.3.1"
+  }
+}
